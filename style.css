@@ -12,17 +12,31 @@ h2{
     text-align: center;
 
 }
- 
+a{
+    cursor: pointer;
+    color: slateblue;
+    font-weight: bold;
+    text-decoration:none;
+    border: 2px dotted slategray;
+
+}
+a:hover{
+    color:lightslategray;
+    border: 3px dotted slateblue;
+}
 /* Empieza el breadcrumb */
+.breadcrumb{
+    padding-left: 0%;
+}
 .breadcrumb ul{
     margin-left: 0%;
     display:inline;
-}
-.breadcrumb li{
+     }
+    .breadcrumb li{
     list-style: none;
    
-  }    
- .breadcrumb a {
+     }    
+    .breadcrumb a {
         color: #fff;
         background: darkcyan;
         text-decoration: none;
@@ -51,10 +65,8 @@ h2{
         background-color:grey;
         color:whitesmoke;
         border: 3px solid transparent;
-    }
-     
+}
 /*Termina el Breadcrumb*/
-
 img{
 
     display: block;
@@ -68,7 +80,5 @@ img{
 #index li{
     display: block;
     padding:5px;
-    font-size: larger;
-   
-    
+    font-size: larger;     
 }
