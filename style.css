@@ -12,6 +12,9 @@ h2{
     text-align: center;
 
 }
+h3{
+    text-align: center;
+   }
 a{
     cursor: pointer;
     color: slateblue;
@@ -24,11 +27,18 @@ a:hover{
     color:lightslategray;
     border: 3px dotted slateblue;
 }
-/* Empieza el breadcrumb */
-.breadcrumb{
-    padding-left: 0%;
+article{
+    border-top: 3px dotted slategrey;
+    border-bottom: 3px dotted slategray;
+    margin: auto;
 }
-.breadcrumb ul{
+
+
+/* Empieza el breadcrumb */
+    .breadcrumb{
+    padding-left: 0%;
+    }
+    .breadcrumb ul{
     margin-left: 0%;
     display:inline;
      }
@@ -65,17 +75,28 @@ a:hover{
         background-color:grey;
         color:whitesmoke;
         border: 3px solid transparent;
-}
-/*Termina el Breadcrumb*/
+    }
+     /*Termina el Breadcrumb*/
 img{
-
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 25%;
+    border-radius: 40px;
+     margin: auto;
+    width:15%;
+    
 }
+
+.textin{
+        }
+.textin p{
+    margin: auto 15px;
+    text-align: justify;
+   
+}
+
+
 #index{
+    position: relative;
     text-align: center;
+    display:block;
 }
 #index li{
     display: block;
