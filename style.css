@@ -12,9 +12,7 @@ h2{
     text-align: center;
 
 }
-h3{
-    text-align: center;
-   }
+
 a{
     cursor: pointer;
     color: slateblue;
@@ -27,12 +25,20 @@ a:hover{
     color:lightslategray;
     border: 3px dotted slateblue;
 }
-article{
+section{
+    display:flex;
     border-top: 3px dotted slategrey;
     border-bottom: 3px dotted slategray;
     margin: auto;
 }
+figure{
+    flex-basis: auto;
 
+}
+article{
+    margin: auto 15px;
+    text-align: justify;
+}
 
 /* Empieza el breadcrumb */
     .breadcrumb{
@@ -72,25 +78,18 @@ article{
         border-left-color:transparent;
       }
     .breadcrumb a:hover{
-        background-color:grey;
-        color:whitesmoke;
-        border: 3px solid transparent;
+      border: 3px solid transparent;
     }
      /*Termina el Breadcrumb*/
 img{
     border-radius: 40px;
      margin: auto;
-    width:15%;
+    
+    width:80%;
     
 }
 
-.textin{
-        }
-.textin p{
-    margin: auto 15px;
-    text-align: justify;
-   
-}
+
 
 
 #index{
