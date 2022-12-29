@@ -1,0 +1,118 @@
+/* Tea cozy style css*/
+body{
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+a{
+    color:seashell;
+    text-decoration: underline;
+}
+/*header*/
+    header{
+        height:69px;
+        position:fixed;
+        border-bottom: 1px solid seashell;
+        display: flex;
+        margin-bottom: 70px;
+        width: 100%;
+        background-color: black;
+    }
+
+    #logo{
+        height: 50px;
+        padding-left: 10px;
+        margin: auto 0px;
+    
+    }
+    #menu{
+        display: flex;
+        list-style: none;
+        text-align: end;
+    }    
+    #menu li{
+        padding: 10px;  
+        }
+/*main*/
+    /*mission*/
+    main{
+        padding-top: 70px;
+        margin: auto;
+        padding:auto;
+    }
+
+    .mission{
+     background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;  
+    margin: auto;
+
+
+}
+    .mission article{   
+        display: flexbox;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        
+    }
+    /* Featured*/
+    .featured{
+        width: 1000px;
+        margin: auto;
+
+    }
+    .container{
+        display: flex;
+        width: 1000px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+    }
+.box img{
+    height: 200px;
+    width:  300px;
+    margin-bottom: 10px; 
+}
+
+/* location*/
+.location{
+    display: flex;
+    background-image: url(./images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    opacity: 1;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.whiteLetter{
+    opacity: 1;
+}
+.box1{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column; 
+    width:300px;
+    height: 300px;
+    background-color: black;
+}
+/*footer*/
+
+.footer{
+    text-align: left;
+    padding-left: 20px;
+}
