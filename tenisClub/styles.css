@@ -1,0 +1,128 @@
+
+/* Color Theme Swatches in Hex */
+.blue { color: #4E96A6; }
+.backgroundblue { background-color: #4E96A6; }
+.dark { color: #012340; }
+.green { color: #3D8C04; }
+.dark2 { color: #24261A; }
+.yellow2 { color: #EDF25E; }
+
+
+
+.title{
+    display:inline;
+Font-Family: 'Ruda', Sans-Serif;
+Font-Size: 2.5rem;}
+.text{
+Font-Family: 'Roboto Slab', Serif;
+Font-Size: 1rem; }
+
+
+
+
+body{
+    background-color: #4E96A6;
+    padding: 0;
+    color:white;
+    font-family:  'Roboto Slab', Serif;
+    text-align: center;
+    opacity:0.97;
+}
+a{
+    color:whitesmoke;
+    }
+ a:hover{
+    color:#EDF25E;
+ }   
+
+
+/* Header */
+.bar{
+    padding-top:0px;
+    background-color:#012340;
+    text-align: left;
+
+    
+}
+.bar img{
+    vertical-align: middle;
+    max-height: 2.75rem;
+    padding:10px;
+    align-items: initial;
+}
+
+.bar ul{
+    margin: 0;
+    padding:20px;
+    font-size: 1.5rem ;
+    
+}
+.bar li{
+    display: inline;
+    padding: 20px 20px;
+    
+}
+.bar a{
+    text-decoration: none;
+    color: #EDF25E;
+    font-weight: bold;
+    opacity:0.95;
+}
+.bar a:hover{
+    color:#ABD904;
+}
+
+@media only screen and (max-width: 768px){
+ .bar img{
+    display: none;
+    }   
+ .intro{
+    font-size: 2rem;
+ }
+
+}
+
+
+/* content*/
+
+.intro{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    color: white;
+    background-image: url(./resources/raqueta\ pelotas.jpg);
+    
+}
+.intro h1{
+    margin: 0;
+    color:#EDF25E;
+}
+
+/* flexbox photos */
+.photos{
+    background-color: #24261A; 
+    ;
+}
+.photos img{
+    display: flexbox;
+    width:30%;
+    padding:10px;
+    border-radius: 5px;
+}
+
+
+.testimonial {
+    font-style: italic;
+    color:white;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+.testimonial p{
+    color:#EDF25E;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.meetup img{
+    max-width: 85%;
+    
+}
