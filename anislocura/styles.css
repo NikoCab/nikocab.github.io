@@ -20,7 +20,9 @@ h2,h3{
     letter-spacing: 2px;
     opacity: 0.85;
 }
-
+h4{
+    font-size: 1.5rem;
+}
 /*header*/
 
 .header{
@@ -77,7 +79,7 @@ h2,h3{
 .fiesta{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .fiesta2{
@@ -93,7 +95,10 @@ h2,h3{
 .content img{
     max-width:250px;
 }
-
+.fiesta2 span{
+    margin:0rem 0.5rem 0rem 1rem;
+    padding:0rem;
+}
 /* The Gente*/
 
 #team-container{
