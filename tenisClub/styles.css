@@ -71,7 +71,7 @@ a{
 .bar a:hover{
     color:#ABD904;
 }
-
+/*mobile */
 @media only screen and (max-width: 768px){
  .bar img{
     display: none;
@@ -83,7 +83,7 @@ a{
 }
 
 
-/* content*/
+
 
 .intro{
     margin-top: 0;
@@ -98,7 +98,6 @@ a{
     color:#EDF25E;
 }
 
-/* flexbox photos */
 .photos{
     background-color: #24261A; 
     ;

@@ -1,0 +1,134 @@
+/*color theme*/
+.red{ color:#d72c2d}
+.dark{ color: #2e2e2e}
+.light{color:whitesmoke}
+
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    padding: 1rem;
+}
+
+h2,h3{
+    font-family: 'Road Rage', cursive;
+    font-size:3rem;
+    letter-spacing: 2px;
+    opacity: 0.85;
+}
+
+/*header*/
+
+.header{
+    display:flex;
+    background-image: url(./resources/banner.jpg);
+    background-size: 100% ;
+    min-height: 25%;
+    align-items: center;
+    justify-content: space-between;
+    }
+.header h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Road Rage', cursive;
+    font-size: 6rem;
+    opacity: 0.95;
+    padding-left: 2rem;
+}
+.header a{
+    padding-right: 1rem;
+    margin:0;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: right;
+
+}
+.header a:hover{
+    color:#d72c2d;
+    font-size:1.25rem;
+}
+.navbar{
+    text-align: right;
+}
+
+/*The Anise*/
+
+.anise{
+    display:flex;
+    background-color: #2e2e2e;
+    color:whitesmoke;
+    margin: 2rem 0;
+    align-items: center;
+}
+.anise img{
+    max-width:35%;
+    padding:2Rem;
+    border-radius: 30px;
+}
+
+/*fiesta*/
+
+.fiesta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fiesta2{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#2e2e2e;
+    border: 1px dotted #d72c2d;
+    padding:1rem;
+    margin:0.2rem;
+}
+.content img{
+    max-width:250px;
+}
+
+/* The Gente*/
+
+#team-container{
+    background-color: lightgray;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.team p{
+    text-align: center;
+    font-weight: bold;
+}
+.team h3,p{
+    margin: 0px;
+
+}
+.team img{
+    max-width:60%;
+}
+.teammate{
+    max-width: 25%;
+    border: 1px solid #2e2e2e;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.copyright{
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    font-weight: lighter;
+    padding: 1rem;
+    opacity: 0.8;
+
+}
