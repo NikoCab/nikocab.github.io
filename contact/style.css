@@ -1,0 +1,167 @@
+/* Color Theme Swatches in Hex */
+.acentos2 {  color: #256C7A; }
+.acentos3 { color: #49727A; }
+.fondo-acentuado { background-color: #4BDFFB; }
+.background { background-color:#96EAFB; }
+.acentos1 { color: #3CB0C7; }
+
+/*fonts */
+.raleway{Font-Family: 'Raleway', Sans-Serif;
+}
+.openS{Font-Family: 'Open Sans', Sans-Serif;
+}
+/*elements*/
+body{
+    color:#49727A;
+    margin: 0 ;
+    text-align: left;
+  }
+h1,h2,h3,h4 {
+    text-align: center;
+    font-family: 'Raleway', Sans-Serif;
+  }
+
+  h1{
+    font-size:2rem;
+  }
+  p{
+    Font-Family: 'Open Sans', Sans-Serif;
+  }
+
+/*header */
+
+header{
+    text-align:left;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    max-width: 10rem;
+    margin:0;
+    border-radius:0 ;
+}
+header img:hover{
+    max-width: 11rem
+}
+
+
+button img{
+      
+        height:100%;
+        width:60%;
+    
+}
+
+/* dropdown menu */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3CB0C7;
+    min-width: 160px;
+    z-index: 3;
+    margin-top: 5rem
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    }
+  
+  
+  /* shows menu*/
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    color:#fff;
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 2px solid #3CB0C7;
+    margin:1rem .2rem;
+    padding: 1rem;
+   
+    background-color: #3CB0C7;
+    
+  }
+  
+  /* The dropdown container */
+  .dropdown .dropbtn{
+    float: right;
+    overflow:visible;
+ 
+    
+    
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    color:#fff;
+    background-color: #3CB0C7;
+    font-size: 1.5rem;
+    border: 2px solid #3CB0C7;
+
+    outline: none;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin:1rem .2rem;
+    padding: 1rem;
+
+}
+  
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #96EAFB;
+  }
+  
+ 
+
+/* Main */
+
+
+#contact ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 4rem;
+    list-style: none;
+
+}
+#contact a{
+    color:#49727A
+}
+
+/* footer*/
+
+footer{
+    color:#96EAFB;
+    background-color: #256C7A;
+    text-align: center;
+    margin: 0;
+    padding:auto;
+    min-height: 2rem;
+    padding-top: 1rem;
+    
+
+}
