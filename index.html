@@ -1,5 +1,6 @@
 <html>
 <head>
+  <script src="./contact/resources/news-ticker.js"></script>
   <script src="https://kit.fontawesome.com/12620aa5c2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
   <title>Niko's programming Page</title>
@@ -50,7 +51,7 @@
         <img  src="./Resources/front-end.jpg" alt="Guy on a computer"/>
       </figure> 
       <article>
-       <p> Curiously I found that I’m pretty good at writing code, and that I have a new passion, even if 
+       <p> Curiously I found that I’m good at writing code, and that I have a new passion, even if 
         I don’t make a career change just yet my developer goal is to be a proficient 
         full-stack programmer at some point of my life.  
           <br> <br>
@@ -61,27 +62,29 @@
     </section>
   
   <section id="skills">
-    <h2>Skills</h2>
-    <div id="skills-container">
-      <i class="fa-brands fa-font-awesome"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-js"></i>
-      <i class="fab fa-react"></i>
-      <i class="fab fa-figma"></i>
-      <i class="fab fa-git"></i>
-      <i class="fab fa-chrome"></i>
-      <i class="fas fa-terminal"></i>
-      <i class="fas fa-universal-access"></i>
-      <i class="fab fa-npm"></i>
-      <i class="fab fa-node"></i>
-      <i class="fab fa-github"></i> 
-      <i class="fa-brands fa-html5"></i> 
-      
-        </div>
+      <h2>Skills</h2>
+      <div id="ticker-box">
+      <ul>
+          <li>  <i class="fa-brands fa-font-awesome"></i> &nbsp	&nbsp
+              <i class="fab fa-css3-alt"></i>&nbsp &nbsp
+              <i class="fab fa-js"></i>&nbsp &nbsp
+              <i class="fab fa-react"></i>&nbsp &nbsp
+              <i class="fab fa-figma"></i>&nbsp &nbsp
+              <i class="fab fa-npm"></i>&nbsp &nbsp
+              <i class="fab fa-git"></i>&nbsp &nbsp
+              <i class="fab fa-chrome"></i>   &nbsp &nbsp
+              <i class="fas fa-terminal"></i>   &nbsp &nbsp
+              <i class="fas fa-universal-access">   </i>&nbsp &nbsp
+              <i class="fab fa-node"></i>  &nbsp &nbsp
+              <i class="fab fa-github"></i>&nbsp &nbsp
+              <i class="fa-brands fa-html5"></i></li>
+        </ul>
+      </div>
+      <script>startTicker('ticker-box', {speed:4, delay:5});</script>
   </section>
   </main>
   <footer class="footer"> 
-         Todos los derechos reservados <strong>Niko 2022</strong>
+         Todos los derechos reservados <strong>Niko 2023</strong>
   </footer>
 </body>
 </html>

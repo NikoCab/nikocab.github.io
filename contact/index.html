@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="./resources/news-ticker.js"></script>
         <script src="https://kit.fontawesome.com/12620aa5c2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./style.css">
         <title>Niko's CONTACT page</title>
@@ -8,8 +9,8 @@
 
     </head>
     <body>
-        <header class="raleway fondo-acentuado ">
-            <figure> <img src="./Resources/logo-niko-front.jpg" alt="Niko's Logo"></figure>
+        <header class=>
+            <figure> <img src="../Resources/logo-niko-front.jpg" alt="Niko's Logo"></figure>
             <div class="navbar">
                   <div class="dropdown">
                   <button class="dropbtn">Projects
@@ -42,8 +43,31 @@
                 </h2>
 
             </section>
-
+            <figure id="banner">
+                <img src="./resources/banner.jpg" alt="">
+            </figure>
+            <div id="ticker-box">
+                <ul>
+                    <li>  <i class="fa-brands fa-font-awesome"></i> &nbsp	&nbsp
+                        <i class="fab fa-css3-alt"></i>&nbsp &nbsp
+                        <i class="fab fa-js"></i>&nbsp &nbsp
+                        <i class="fab fa-react"></i>&nbsp &nbsp
+                        <i class="fab fa-figma"></i>&nbsp &nbsp
+                        <i class="fab fa-npm"></i>&nbsp &nbsp
+                        <i class="fab fa-git"></i>&nbsp &nbsp
+                        <i class="fab fa-chrome"></i>   &nbsp &nbsp
+                        <i class="fas fa-terminal"></i>   &nbsp &nbsp
+                        <i class="fas fa-universal-access">   </i>&nbsp &nbsp
+                        <i class="fab fa-node"></i>  &nbsp &nbsp
+                        <i class="fab fa-github"></i>&nbsp &nbsp
+                        <i class="fa-brands fa-html5"></i></li>
+                </ul>
+                
+            </div>
+            <script>startTicker('ticker-box', {speed:4, delay:5});</script>
+               
         <footer class="footer"> 
+
                 Todos los derechos reservados <strong>Niko 2022</strong>
          </footer>
 

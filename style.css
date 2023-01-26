@@ -137,10 +137,13 @@ button img{
     background-color: #96EAFB;
   }
   
-  /* header responsiveness*/
+  /* responsiveness*/
   @media only screen and (max-width: 600px) {
     header {
       height: 15%;
+    }
+    .bio img{
+      display:none;
     }
   }
 
@@ -154,8 +157,7 @@ button img{
     padding:1rem;
     background-color: #96EAFB;
     justify-content: space-evenly;
-    align-items: center;
-    
+   
 }
 .bio img,.bio2 img{
     max-height: 20rem;
@@ -196,6 +198,10 @@ article{
 }
 #skills{
     padding:2rem;
+}
+#ticker-box{
+  height:3.5rem;
+  font-size: 3rem;
 }
 
 
