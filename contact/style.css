@@ -155,7 +155,7 @@ button img{
 
 
 figure#banner{
-  height: 10rem;
+  height: 5rem;
   margin: 0;
   background-color:#65a1ad;
   display: flex;
@@ -181,4 +181,7 @@ footer{
     padding:auto;
     min-height: 2rem;
     padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     }
