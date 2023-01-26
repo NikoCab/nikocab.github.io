@@ -1,9 +1,9 @@
 /* Color Theme Swatches in Hex */
-.acentos2 {  color: #3350A6; }
-.acentos3 { color: #0554F2; }
-.fondo-acentuado { background-color: #1374F2; }
-.background { background-color: #F2F2F2; }
-.acentos1 { color:#0DD965; }
+.acentos2 {  color: #256C7A; }
+.acentos3 { color: #49727A; }
+.fondo-acentuado { background-color: #4BDFFB; }
+.background { background-color:#96EAFB; }
+.acentos1 { color: #3CB0C7; }
 
 /*fonts */
 .raleway{Font-Family: 'Raleway', Sans-Serif;
@@ -13,148 +13,186 @@
 
 /*elements*/
 body{
-   color:#3350A6;
-   padding: 15px ;
-}
-h1{
-    color: #F2F2F2;
-    text-align:center;
-    font-weight: bold;
-    font-size: 50px;
-       padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    opacity: 0.8;
-}
-h2{
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-    font-size: 35px;
-
-}
-h3{
-    font-size: x-large;
-    font-weight: bold;
-}
-p{
-    font-weight: 200;
-}
-a{
-    font-size: larger;
-    cursor: pointer;
-    font-weight: bolder;
-    text-decoration:none;
-    border: 2px dotted #88C9F2;
-
-}
-a:hover{
-     border: 3px dotted slateblue;
-}
-section{
-    display:flex;
-    flex-wrap: nowrap;
-    border: 3px solid #0554F2;
-    border-radius: 25px;
-    margin: 40px 40px;
-    justify-content: space-between;
-}
-figure{
-    flex-basis: 40%;
-    flex-shrink: 1;
-
-}
-article{
-    padding:0px 35px 0 0;
-    margin: 15px 0px;
-    text-align: justify;
-    flex-shrink: 2;
-}
-footer{
-    color:#F2F2F2;
-    font-size: large;
-    text-align: center;
-    padding:5px;
-    margin: 0;
-    opacity: 0.8;
-  }
-  li{
-    display: inline;
-    text-align: center;
-}
-ul{
-    margin: auto;
-}
-img{
-    border-radius: 40px;
-     margin: 5px;
-    
-    width:80%;
-    
-}
-ul{
-    list-style:circle ;
-    line-height: 25px;
-}
-
-/* Empieza el breadcrumb */
-    .breadcrumb{
-    padding-left: 0%;
-    margin: 25px 0;
-    }
-    .breadcrumb ul{
-    margin-left: 0%;
-    display:inline;
-     }
-    .breadcrumb li{
-    
-   
-     }    
-    .breadcrumb a {
-        text-decoration: none;
-        position: relative;
-        height: 20px;
-        text-align: center;
-        margin-right: 15px;
-        padding:10px;
-        border: 2px solid #1374F2;
-        border-radius: 15px;
-        margin: 10 ;    
-        ;     
-      }
-    .breadcrumb a::after {
-        left: 100%;
-        border-color: inherit;
-        border-left-color: darkcyan;
-
-      }
-    .breadcrumb a::before {
-        left: -10px;
-        border-left-color:transparent;
-     
-      }
-    .breadcrumb a:hover{
-      color: #0554F2;
-      border: 3px solid #1374F2;
-    }
-/*Termina el Breadcrumb*/
-
-
-/*classes*/
-.lista{
-    display: block;
+    color:#49727A;
+    margin: 0 ;
     text-align: left;
-    list-style: square;
+  }
+h1,h2,h3,h4 {
+    font-family: 'Raleway', Sans-Serif;
+  }
+
+  h1{
+    font-size:2rem;
+  }
+  p{
+    Font-Family: 'Open Sans', Sans-Serif;
+  }
+
+/*header */
+
+header{
+    text-align:left;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    max-width: 10rem;
+    margin:0;
+    border-radius:0 ;
+}
+header img:hover{
+    max-width: 11rem
 }
 
-.Index li{
-    text-align: center;
-    display:inline;
+
+button img{
+      
+        height:100%;
+        width:60%;
     
 }
-.Index{
-    padding:5px;
-    font-size: larger;
+
+/* dropdown menu */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3CB0C7;
+    min-width: 160px;
+    z-index: 3;
+    margin-top: 5rem
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
     text-align: center;
+    border-bottom: 1px solid white;
+    }
+  
+  
+  /* shows menu*/
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    color:#fff;
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 2px solid #3CB0C7;
+    margin:1rem .2rem;
+    padding: 1rem;
+   
+    background-color: #3CB0C7;
+    
+  }
+  
+  /* The dropdown container */
+  .dropdown .dropbtn{
+    float: right;
+    overflow:visible;
+ 
+    
+    
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    color:#fff;
+    background-color: #3CB0C7;
+    font-size: 1.5rem;
+    border: 2px solid #3CB0C7;
+
+    outline: none;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin:1rem .2rem;
+    padding: 1rem;
+
+}
+  
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #96EAFB;
+  }
+  
+ 
+
+/* Main */
+/* Bio  */
+
+.bio{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:1rem;
+    background-color: #96EAFB;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.bio img{
+    max-height: 20rem;
+    border-radius: 3rem;
+
+}
+.bio article{
+    max-width: 40rem;
+}
+.bio ul{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+}
+.bio li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* skills */
+#skills-container{
+    font-size: 3rem;
+    display: flex;
+    letter-spacing: 1rem;
+    flex-wrap: wrap;
+}
+#skills{
+    padding:2rem;
+}
+
+
+/* footer*/
+
+footer{
+    color:#96EAFB;
+    background-color: #256C7A;
+    text-align: center;
+    margin: 0;
+    padding:auto;
+    min-height: 2rem;
+    padding-top: 1rem;
+    
+
 }
 
