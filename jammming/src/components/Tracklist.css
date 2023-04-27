@@ -1,0 +1,21 @@
+.TrackList {
+    margin: 1rem;
+    max-width: 50%;
+    background-color: #8596A1;
+    border-radius: 2rem;  
+    opacity: 0.95;
+    
+    
+  }
+  
+  .TrackList h2 {
+    margin: 0;
+    text-align: center;
+    color:#EDEC7E
+  }
+  
+  .TrackList ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }

@@ -1,0 +1,21 @@
+.SearchResults {
+  margin: 1rem;
+  max-width: 50%;
+  background-color: #8596A1;
+  border-radius: 2rem;  
+  opacity: 0.95;
+  
+  
+}
+
+.SearchResults h2 {
+  margin: 0;
+  text-align: center;
+  color:#EDEC7E
+}
+
+.SearchResults ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}

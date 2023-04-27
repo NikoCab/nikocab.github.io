@@ -1,0 +1,33 @@
+.App {
+  height: 100%;
+  max-width: auto;
+    margin: 0 auto 0 auto;
+  /* Use a dark gray background color */
+  background-color: #333;
+  /* Use a light gray font color */
+  color: #c5c3c3;
+  /* Use a linear gradient for the background */
+  background-image: url('../public/background.jpg');
+  /* Add some padding */
+  padding: 20px;
+  text-align: center;
+  background-position: center;
+}
+.App img {
+  max-width: 8rem;
+  border-radius: 2rem; 
+}
+
+.App h1 {
+  background-image: url('../resources/logo.jpeg');
+  text-align: center;
+  font-family:  'Arial Narrow Bold', sans-serif, sans-serif;
+  font-size: 60px;
+
+  color: rgb(159, 195, 226);
+}
+.Cuerpo {
+  display: flex;
+  align-items: center;
+}
+
