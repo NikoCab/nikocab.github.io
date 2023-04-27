@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchBar from './components/searchbar';
 import SearchResults from './components/SearchResults';
 import Spotify from './components/spotify';
-import TrackList from './components/Tracklist';
+import Playlist from './components/Playlist'
 import './App.css'
 
 
@@ -30,7 +30,7 @@ function App() {
   };
   //On trackclick deberia funcionar para pasar las canciones a la playlist
   function onTrackClick(track) {
-    Spotify.save(track.id)
+    Spotify.savePlaylist(track.id)
       .then(() => {
         // Exito
         alert('Pista guardada en Spotify');
@@ -41,6 +41,19 @@ function App() {
                console.error(error);
       });
   }
+  const removeTrack = (track) => {
+    // Filter out the track from the playlist tracks state variable
+    setPlaylistTracks(playlistTracks.filter(t => t.id !== track.id));
+  };
+  // Define a function to handle saving the playlist to Spotify
+const savePlaylist = () => {
+  // Get an array of track URIs from the playlist tracks
+  const trackURIs = playlistTracks.map(track => track.uri);
+  // Call the Spotify.savePlaylist method with the track URIs
+  Spotify.savePlaylist(trackURIs); // Change this from Spotify.save to Spotify.savePlaylist
+  // Clear the playlist tracks state variable
+  setPlaylistTracks([]);
+};
   //Return el JSX de la página
   return (
     <div className="App">
@@ -51,8 +64,9 @@ function App() {
         onSearchSubmit={handleSearchSubmit} 
       />
       <div  className="Cuerpo">
-        <SearchResults tracks={tracks} />
-        <TrackList tracks={playlistTracks} onTrackClick={onTrackClick} />
+        <SearchResults tracks={tracks}  onTrackClick={onTrackClick}/>
+        <Playlist tracks={playlistTracks} onTrackClick={removeTrack} onSave={savePlaylist} />
+    
     
       </div>
       
