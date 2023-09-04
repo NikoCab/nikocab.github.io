@@ -1,0 +1,38 @@
+.header {
+    background-color: #0297DB; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+  
+  .profile-button {
+    background-color: #0297DB; 
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .logo-container {
+
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .app-name {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  
+  .settings-button {
+    background-color: #0297DB; 
+    font-size: 3rem;
+    border-style: none;
+    color:aliceblue
+   }

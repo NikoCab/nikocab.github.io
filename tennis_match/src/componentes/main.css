@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    color: #ebfbfa;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile {
+    width: 9rem; 
+    height:auto;
+    border-radius:.5rem ;
+  }
+  
+  .name {
+    font-size: 2rem; 
+    margin-left: 0.625rem; 
+  }
+  .datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ranking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .ranking-title {
+    font-size: 1.25rem; 
+  }
+  
+  .ranking-item {
+    font-size: 1rem; 
+  }
+  
+  .match-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .match-title {
+    font-size: 1.25rem; 
+  }
+  
+  .match-item {
+    font-size: 1rem;
+  }
+  .new-match{
+    color:#ebfbfa;
+    background-color:#0297DB;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: .5rem;
+  }

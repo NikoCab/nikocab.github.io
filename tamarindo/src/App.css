@@ -1,0 +1,30 @@
+.app {
+  text-align: center;
+  color: gray;
+}
+
+.cards {
+ display: flex;
+ padding: 1rem;
+ margin: 2rem;
+}
+.card {
+  margin: .5rem;
+
+}
+.card:hover{
+  margin:-0.25rem;
+  width: 150%;
+}
+h2 {
+  color: gray;
+}
+body{
+  background-image: url("./components/images/bg.png");
+}
+.hero {
+  opacity: 0.96;
+}
+Clientes{
+  background-color: white;
+}
