@@ -1,0 +1,16 @@
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  base: '/mca_viajes/', // Cambia esto por la subcarpeta donde subiste tu sitio
+  plugins: [react()],
+})
+
+# Archivo .htaccess para la subcarpeta /mca_viajes/
+RewriteEngine On
+RewriteBase /mca_viajes/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /mca_viajes/index.html [L]
