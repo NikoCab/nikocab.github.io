@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mcaviajes.com/sitemap.xml
